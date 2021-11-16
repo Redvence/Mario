@@ -12,3 +12,18 @@
   75% { background-position: -136px top;}
   100% { background-position: -204px top;}
 }
+.path{
+  width: 68px;
+  height: 68px;
+  display: block;
+  position: absolute;
+  top: 200px;
+  animation: path 3s linear infinite;
+}
+@keyframes path{
+  0% {left: -68px; top;}
+  25% {left: 30%; top: 200px;}
+  50% {left: 50%; top: 150px;}
+  55% {left: 56%; top: 200px;}
+  100% {left: 100%;}
+}
