@@ -1,9 +1,9 @@
-.mario{
+.Mario{
   width: 68px;
   height: 68px;
   display: block;
   position: relative;
-  background: url('img/mario-walk-n-jump-68.png');
+  background: url('../img/mario-walk-n-jump-68.png');
   animation: walk .4s steps(1) infinite;
 }
 @keyframes walk{
